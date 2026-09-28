@@ -55,8 +55,8 @@ cp raw/*event*.log processed/event_logs/
 find . -name "*ipaddr*" -delete 
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
-ls processed > processed/inventory.txt
-
+ls processed > inventory.txt
+inventory
 ###########################################
 
 echo "Project setup is complete!"
